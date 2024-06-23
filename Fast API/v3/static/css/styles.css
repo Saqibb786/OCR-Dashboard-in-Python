@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/background1.jpg");
+    object-fit: cover;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+.main-title {
+    margin: 2% 0;
+    font-size: 42px;
+    -webkit-text-fill-color: #004466;
+    -webkit-text-stroke: 1px #f9f9f9;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+input[type="file"], select {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+img {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.description {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.description h2 {
+    margin-top: 20px;
+   
+}
+ol{
+    display: flex;
+    
+}
+li{
+    width: 300px;
+    margin: 30px;
+    /* padding: 40px; */
+}
+h2 {
+    font-size: 22px;
+    font-family: Verdana;
+    color: #004466;
+    font-weight: bold;
+    
+}
+strong{
+    font-size: 16px;
+    font-family: Verdana;
+    line-height: 2.0;
+    font-weight: bold;
+    color: SteelBlue;
+}
+.title-h2 {
+    text-align: center;
+}
+.menuBox {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 251, 237, 0.5);
+
+    padding: 25px;
+    margin: 0 30%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.menuBox .btn{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.container .about {
+    padding: 0 50px;
+    text-align: center;
+}
+a:hover {
+    color: #007BFF;
+}

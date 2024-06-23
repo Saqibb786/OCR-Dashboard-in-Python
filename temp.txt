@@ -1,1 +1,0 @@
-streamlit run .\Dashboard1.py --server.port 8888
