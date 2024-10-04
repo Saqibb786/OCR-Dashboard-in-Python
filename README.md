@@ -2,6 +2,8 @@
 
 An Optical Character Recognition (OCR) Dashboard built using **Python**, **FastAPI**, **HTML**, **CSS**, and **EasyOCR**. This project allows users to upload images, extract text using OCR technology, and download the results in various formats.
 
+![OCRdashboard Preview](./static/images/OCRdashboard-thumbnail.jpg)
+
 ## Features
 - **Image Upload**: Upload images in formats like PNG and JPG.
 - **Text Extraction**: Extract text from images using EasyOCR.
